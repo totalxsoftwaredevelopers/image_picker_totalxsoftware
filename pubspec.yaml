@@ -1,0 +1,36 @@
+name: image_picker_totalxsoftware
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage: "https://github.com/totalxsoftwaredevelopers/image_picker_totalxsoftware"
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=3.3.0"
+
+dependencies:
+  firebase_storage: ^12.3.5
+  flutter:
+    sdk: flutter
+  flutter_image_compress: ^2.3.0
+  image_cropper: ^8.0.2
+  image_picker: ^1.1.2
+  plugin_platform_interface: ^2.0.2
+  hl_image_picker: ^1.2.16
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+
+flutter:
+  generate: true
+
+screenshots:
+  - description: "www.totalx.in"
+    path: assets/images/totalx.png
